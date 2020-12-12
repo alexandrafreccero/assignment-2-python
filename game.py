@@ -17,37 +17,44 @@ class Scene:
 
         self.scene_to_print = text       # I Text har filens innehåll sparats som ska printas i aktuell scen
         self.options = options           # options har lista med dictionary,self.options sparar detta
+        self.path = path                 # sparar den fil man är i
 
 
-
-    def play(self):                      # Funktion för själva spelets utförande
+    def play(self):  
+        
+        # PRINT THE TEXT                    # Funktion för själva spelets utförande
         for line in self.scene_to_print:
             print(line)
-        
-        counter = 1                      # Counter har värdet 1
-        for choice in self.options:      #för varje val i lista
-            print(counter, choice["question"]) #skriv ut siffra 1 och choice(val i lista)före % question
-            counter = counter + 1              # för varje loop i lista lägg till ett
-        
 
-        answer = input()                 # answer är användarens val
-        if len (self.options)==0:
-            next_scene = Scene(path = "exit.txt") 
-            next_scene.play()
-        if answer == "q":                # Om använadren skriver q
-            print("thank you for playing, have a nice day!") #Printas detta
-            exit()                                           # spel avslutas
+        
+        # PRINT THE OPTIONS AVAILABLE FOR THE USERS
+        valid_answer = False  # Boolean, värdet false därför att while loop körs om endast vid fel input värde.
+        while not valid_answer:
+            counter = 1                      # Counter har värdet 1
+            for choice in self.options:      #för varje val i lista
+                print(counter, choice["question"]) #skriv ut siffra 1 och choice(val i lista)före % question
+                counter = counter + 1              # för varje loop i lista lägg till ett
+            
+            try:
+                answer = input("> ")                 # answer är användarens val
+
+                # CHECK IF WE SHOULD QUIT THE GAME
+                if answer == "q" or self.path == 'exit.txt' or len(self.options)==0:                # Om använadren skriver q
+                    print("thank you for playing, have a nice day!") #Printas detta
+                    exit()  
+                        
+                answer = int(answer)            # gör om input till en int
+                valid_answer = 1 <= answer <= len(self.options)
+                if not valid_answer:
+                    print("You did not enter a correct number, please try again.")
+            except ValueError: # Fel värde i input
+                print("Something went wrong, please retry")
                 
-        answer = int(answer)            # gör om input till en int
-
         #använd answer för att välja korrekt option
         choosen_option = self.options[answer-1]
         #print (choosen_option['file'])
         next_scene = Scene(path=choosen_option["file"]) 
         next_scene.play()# använd 
-
-
-
 
 # här körs spelet
 the_scene = Scene(path='intro.txt')
