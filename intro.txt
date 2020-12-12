@@ -1,4 +1,5 @@
 Do you wish to play the game%scene1.txt
 No i do not want to play the game%exit.txt
 
-To play this game, you will have to choose between different options regarding the action you wish to take. You simply enter the number of the option to get ahead in the game. If you want to exit game press q at any time
+To play this game, you will have to choose between different options regarding the action you wish to take. 
+You simply enter the number of the option to get ahead in the game. If you want to exit game press q at any time

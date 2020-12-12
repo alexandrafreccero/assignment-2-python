@@ -1,7 +1,11 @@
 you go towards it%scene9.txt
 You decide to walk around it%scene10.txt
 
-There is a magnetic pull radiating from it that seem to draw your feet and legs towards it. It is similar to the sensation one gets when immersed in a river, and your feet gets caught in an underwater stream. It is a pleasant and tingling feeling.
-As you get closer to the disk the air seems to get warmer as if the disk was a living body. The disk is large but not huge.
-You see that there are geometrical patterns on its surface, and that  one of the shapes, a square, is emitting a red light.
- 
+There is a magnetic pull radiating from it that seem to draw your feet and legs towards it.
+It is similar to the sensation one gets when immersed in a river, 
+and your feet are caught in an underwater stream. 
+It is a pleasant and tingling feeling.
+As you get closer to the disk the air seems to get warmer as if the disk was a living body. 
+The disk is large but not huge.
+You see that there are geometrical patterns on its surface, 
+and that  one of the shapes, a square, is emitting a red light.

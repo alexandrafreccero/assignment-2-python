@@ -2,5 +2,8 @@ Move closer%scene4.txt
 sit down%scene5.txt
 move away%scene6.txt 
  
- Very slowly you move towards the shining object. The silence around you is surreal, you hear your own breath and heartbeat more clearly than you desire.
- The object is in the middle of the field so there is no way your approach can be performed in a discreet manner. You are, so to say out in the open.
+ Very slowly you move towards the shining object. 
+ The silence around you is surreal, you hear your own breath and heartbeat more clearly than you desire.
+ The object is in the middle of the field so there is no way your approach can be performed in a discreet manner. 
+ You are, so to say out in the open.
+ 

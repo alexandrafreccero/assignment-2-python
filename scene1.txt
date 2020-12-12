@@ -2,7 +2,12 @@ You are curious and move towards the object %scene2.txt
 The strange silence and now this object freaks you out, you start running back home.%scene3.txt
 
 The field
-It is a beautiful spring morning, you are out walking in nature, not far from where you live-
-The timid rays of the sun plays among the leaves of the trees and the stillness is enhanced by the sound of birdsong. You continue to walk, and your mind is not focused on anything in particular.
-You reach the boarder of a big field and suddenly you become aware of an unsettling new sensation. You pause for a moment and realise that you no longer hear the birdsong, in fact, there is a complete silence around you. A chill travels down your spine, and instinctively you freeze. You stay still and gaze around yourself when you catch a glimpse of something shimmering in the corner of your eye.
+It is a beautiful spring morning, you are out walking in nature, not far from where you live.
+The timid rays of the sun plays among the leaves of the trees and the stillness is enhanced 
+by the sound of birdsong. You continue to walk, and your mind is not focused on anything in particular.
+You reach the boarder of a big field and suddenly you become aware of an unsettling new sensation. 
+You pause for a moment and realise that you no longer hear the birdsong, in fact, 
+there is a complete silence around you. A chill travels down your spine, and instinctively you freeze. 
+You stay still and gaze around yourself when you catch a glimpse of something shimmering
+in the corner of your eye.
 Out there on the field a huge pale and shining object seems to float on the grass. 

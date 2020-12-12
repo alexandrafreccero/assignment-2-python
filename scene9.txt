@@ -1,5 +1,11 @@
 press panel%scene11.txt
 continue to investigate disc %scene10.txt
 
-Now you are an arm’s length from the disks surface, the air around it is warm and dry, and smells slightly similar to static electricity. You stretch out the hand and very slowly you reach closer and closer to the ships surface. It is buzzing in your hand. When you touch the surface for a second it seems to create a wave, but you are not sure. It is warm and very smooth to touch. The square shape that is glowing seems to be a panel on the surface. 
+Now you are an arm’s length from the disks surface, the air around it is warm and dry, 
+and smells slightly similar to static electricity. 
+You stretch out the hand and very slowly you reach closer and closer to the ships surface. 
+It is buzzing in your hand. When you touch the surface for a second it seems to create a wave, 
+but you are not sure. 
+It is warm and very smooth to touch. 
+The square shape that is glowing seems to be a panel on the surface. 
  
